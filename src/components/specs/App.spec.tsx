@@ -1,24 +1,31 @@
 
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';
+import App from '../App/App';
+
+
+let componentUnderTest: any;
+
+const oneInstance: number = 1;
+const expectedAppMessage: string = 
+  'Welcome To Seinfeld - An app about nothing.';
+
 
 describe('The App component must', () => {
 
-  const oneInstance: number = 1;
-  const expectedAppMessage: string = 
-    'Welcome To Seinfeld - An app about nothing.';
-  
+  beforeEach(() => {
+    componentUnderTest = shallow(<App />);
+  });
+
 
   test('contain a header', () => {
-    const componentUnderTest = shallow(<App />);
-  
-    expect(componentUnderTest.find('header').length).toBe(oneInstance);
+    const headerElement: string = 'header';
+
+    expect(componentUnderTest.find(headerElement).length).toBe(oneInstance);
   });
 
 
   test('display the text "Welcome To Seinfeld - An app about nothing."', () => {
-    const componentUnderTest = shallow(<App />);
 
     // This is OK to do because this text is currently the only text on the page.
     expect(componentUnderTest.text()).toBe(expectedAppMessage);
