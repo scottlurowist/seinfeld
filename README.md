@@ -1,7 +1,7 @@
 # Seinfeld - An App About Nothing
 
 ## Why Seinfeld?
-Seinfeld is a React application about nothing. In reality, it is simply a recipe app that does nothing substantial. This is a long-running project that will demonstrate how to use:
+Seinfeld is a React application about nothing. It is simply a recipe app that does nothing substantial. This is a long-running project that will demonstrate how to use:
 - Typescript
 - Hooks
 - React Router DOM
