@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/seinfeld/static/css/main.e796e4f1.chunk.css",
+    "main.js": "/seinfeld/static/js/main.92b70eb4.chunk.js",
+    "main.js.map": "/seinfeld/static/js/main.92b70eb4.chunk.js.map",
+    "runtime-main.js": "/seinfeld/static/js/runtime-main.77d51bad.js",
+    "runtime-main.js.map": "/seinfeld/static/js/runtime-main.77d51bad.js.map",
+    "static/js/2.3156baae.chunk.js": "/seinfeld/static/js/2.3156baae.chunk.js",
+    "static/js/2.3156baae.chunk.js.map": "/seinfeld/static/js/2.3156baae.chunk.js.map",
+    "static/js/3.5f5010ce.chunk.js": "/seinfeld/static/js/3.5f5010ce.chunk.js",
+    "static/js/3.5f5010ce.chunk.js.map": "/seinfeld/static/js/3.5f5010ce.chunk.js.map",
+    "index.html": "/seinfeld/index.html",
+    "static/css/main.e796e4f1.chunk.css.map": "/seinfeld/static/css/main.e796e4f1.chunk.css.map",
+    "static/js/2.3156baae.chunk.js.LICENSE.txt": "/seinfeld/static/js/2.3156baae.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/seinfeld/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77d51bad.js",
+    "static/js/2.3156baae.chunk.js",
+    "static/css/main.e796e4f1.chunk.css",
+    "static/js/main.92b70eb4.chunk.js"
+  ]
+}
